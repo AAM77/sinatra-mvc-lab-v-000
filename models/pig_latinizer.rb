@@ -2,9 +2,9 @@ class PigLatinizer
 
   attr_accessor :text
 
-  def piglatinize(text)
+  def user_text(text)
     @text = text
-    self.pig_latinize_it
+    #self.pig_latinize_it
   end #initialize
 
   def split_text
